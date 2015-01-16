@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-from sekhon import __version__
+from entrez_fetch import __version__
 
 setup(name='entrez_fetch',
         version=__version__,
