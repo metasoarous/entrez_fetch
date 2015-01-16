@@ -7,6 +7,9 @@ from itertools import islice
 from Bio import Entrez
 
 
+__version__ = "0.0.1"
+
+
 def chunked(iterable, n):
     "Chunk the iterable into chunks of at max size n"
     it = iter(iterable)
